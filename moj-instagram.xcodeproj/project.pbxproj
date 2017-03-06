@@ -1,0 +1,404 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BF28D61A1D4CD0ED0076515D /* AppIcon.appiconset in Resources */ = {isa = PBXBuildFile; fileRef = BF28D6191D4CD0ED0076515D /* AppIcon.appiconset */; };
+		BF86CD071D50C37200673EB3 /* Ćelijana.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF86CD061D50C37200673EB3 /* Ćelijana.swift */; };
+		BF8EE2F71D451FA300CA0C64 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8EE2F61D451FA300CA0C64 /* AppDelegate.swift */; };
+		BF8EE2FE1D451FA300CA0C64 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF8EE2FD1D451FA300CA0C64 /* Assets.xcassets */; };
+		BF8EE3011D451FA300CA0C64 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF8EE2FF1D451FA300CA0C64 /* LaunchScreen.storyboard */; };
+		BF8EE3091D451FDF00CA0C64 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = BF8EE3081D451FDF00CA0C64 /* Podfile */; };
+		BF8EE30B1D4520D900CA0C64 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BF8EE30A1D4520D900CA0C64 /* GoogleService-Info.plist */; };
+		BF8EE3111D452CAC00CA0C64 /* moj-instagram.png in Resources */ = {isa = PBXBuildFile; fileRef = BF8EE3101D452CAC00CA0C64 /* moj-instagram.png */; };
+		BF8EE3191D45532200CA0C64 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF8EE3181D45532200CA0C64 /* Main.storyboard */; };
+		BF9C86311D4A1B5100E230C9 /* galerija3.png in Resources */ = {isa = PBXBuildFile; fileRef = BF9C86301D4A1B5100E230C9 /* galerija3.png */; };
+		BF9C86331D4A1BD700E230C9 /* kamera2.png in Resources */ = {isa = PBXBuildFile; fileRef = BF9C86321D4A1BD700E230C9 /* kamera2.png */; };
+		BFD6A5001D46666F0034E59C /* Logovanje.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD6A4FF1D46666F0034E59C /* Logovanje.swift */; };
+		BFD6A5021D4666900034E59C /* Registrovanje.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD6A5011D4666900034E59C /* Registrovanje.swift */; };
+		BFD6A5041D4686330034E59C /* UlogovanKorisnik.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD6A5031D4686330034E59C /* UlogovanKorisnik.swift */; };
+		E64000177ABA4A9D6C16A034 /* libPods-moj-instagram.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DC3351732E2EF060A91E8CC /* libPods-moj-instagram.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1DC3351732E2EF060A91E8CC /* libPods-moj-instagram.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-moj-instagram.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF28D6191D4CD0ED0076515D /* AppIcon.appiconset */ = {isa = PBXFileReference; lastKnownFileType = folder; name = AppIcon.appiconset; path = Assets.xcassets/AppIcon.appiconset; sourceTree = "<group>"; };
+		BF86CD061D50C37200673EB3 /* Ćelijana.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Ćelijana.swift"; sourceTree = "<group>"; };
+		BF8EE2F31D451FA300CA0C64 /* moj-instagram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "moj-instagram.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF8EE2F61D451FA300CA0C64 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BF8EE2FD1D451FA300CA0C64 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BF8EE3001D451FA300CA0C64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BF8EE3021D451FA300CA0C64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF8EE3081D451FDF00CA0C64 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		BF8EE30A1D4520D900CA0C64 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		BF8EE3101D452CAC00CA0C64 /* moj-instagram.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "moj-instagram.png"; sourceTree = "<group>"; };
+		BF8EE3181D45532200CA0C64 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		BF9C86301D4A1B5100E230C9 /* galerija3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = galerija3.png; sourceTree = "<group>"; };
+		BF9C86321D4A1BD700E230C9 /* kamera2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kamera2.png; sourceTree = "<group>"; };
+		BFD6A4FF1D46666F0034E59C /* Logovanje.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Logovanje.swift; sourceTree = "<group>"; };
+		BFD6A5011D4666900034E59C /* Registrovanje.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Registrovanje.swift; sourceTree = "<group>"; };
+		BFD6A5031D4686330034E59C /* UlogovanKorisnik.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UlogovanKorisnik.swift; sourceTree = "<group>"; };
+		CE9A1EA27E31EBC67822F057 /* Pods-moj-instagram.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-moj-instagram.release.xcconfig"; path = "Pods/Target Support Files/Pods-moj-instagram/Pods-moj-instagram.release.xcconfig"; sourceTree = "<group>"; };
+		EBEAFAD6B14B5DB2D2B6F8C2 /* Pods-moj-instagram.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-moj-instagram.debug.xcconfig"; path = "Pods/Target Support Files/Pods-moj-instagram/Pods-moj-instagram.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BF8EE2F01D451FA300CA0C64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E64000177ABA4A9D6C16A034 /* libPods-moj-instagram.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		190BDA3B4C46B3F48CDA8A86 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EBEAFAD6B14B5DB2D2B6F8C2 /* Pods-moj-instagram.debug.xcconfig */,
+				CE9A1EA27E31EBC67822F057 /* Pods-moj-instagram.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8C7A3E779E2E9CC9337B2A34 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DC3351732E2EF060A91E8CC /* libPods-moj-instagram.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF8EE2EA1D451FA300CA0C64 = {
+			isa = PBXGroup;
+			children = (
+				BF8EE3081D451FDF00CA0C64 /* Podfile */,
+				BF8EE2F51D451FA300CA0C64 /* moj-instagram */,
+				BF8EE2F41D451FA300CA0C64 /* Products */,
+				190BDA3B4C46B3F48CDA8A86 /* Pods */,
+				8C7A3E779E2E9CC9337B2A34 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BF8EE2F41D451FA300CA0C64 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BF8EE2F31D451FA300CA0C64 /* moj-instagram.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BF8EE2F51D451FA300CA0C64 /* moj-instagram */ = {
+			isa = PBXGroup;
+			children = (
+				BF8EE2F61D451FA300CA0C64 /* AppDelegate.swift */,
+				BF8EE3181D45532200CA0C64 /* Main.storyboard */,
+				BFD6A5031D4686330034E59C /* UlogovanKorisnik.swift */,
+				BF86CD061D50C37200673EB3 /* Ćelijana.swift */,
+				BFD6A5011D4666900034E59C /* Registrovanje.swift */,
+				BFD6A4FF1D46666F0034E59C /* Logovanje.swift */,
+				BF8EE2FD1D451FA300CA0C64 /* Assets.xcassets */,
+				BF8EE2FF1D451FA300CA0C64 /* LaunchScreen.storyboard */,
+				BF9C86301D4A1B5100E230C9 /* galerija3.png */,
+				BF9C86321D4A1BD700E230C9 /* kamera2.png */,
+				BF8EE3101D452CAC00CA0C64 /* moj-instagram.png */,
+				BF28D6191D4CD0ED0076515D /* AppIcon.appiconset */,
+				BF8EE3021D451FA300CA0C64 /* Info.plist */,
+				BF8EE30A1D4520D900CA0C64 /* GoogleService-Info.plist */,
+			);
+			path = "moj-instagram";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BF8EE2F21D451FA300CA0C64 /* moj-instagram */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF8EE3051D451FA300CA0C64 /* Build configuration list for PBXNativeTarget "moj-instagram" */;
+			buildPhases = (
+				6660106FBC13933BE9D8F559 /* [CP] Check Pods Manifest.lock */,
+				BF8EE2EF1D451FA300CA0C64 /* Sources */,
+				BF8EE2F01D451FA300CA0C64 /* Frameworks */,
+				BF8EE2F11D451FA300CA0C64 /* Resources */,
+				52A2A3852B969CCF885B9802 /* [CP] Embed Pods Frameworks */,
+				E754B04E1D192DD6E715F376 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "moj-instagram";
+			productName = "moj-instagram";
+			productReference = BF8EE2F31D451FA300CA0C64 /* moj-instagram.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BF8EE2EB1D451FA300CA0C64 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = User;
+				TargetAttributes = {
+					BF8EE2F21D451FA300CA0C64 = {
+						CreatedOnToolsVersion = 7.3;
+						LastSwiftMigration = 0820;
+					};
+				};
+			};
+			buildConfigurationList = BF8EE2EE1D451FA300CA0C64 /* Build configuration list for PBXProject "moj-instagram" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BF8EE2EA1D451FA300CA0C64;
+			productRefGroup = BF8EE2F41D451FA300CA0C64 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BF8EE2F21D451FA300CA0C64 /* moj-instagram */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BF8EE2F11D451FA300CA0C64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF8EE3191D45532200CA0C64 /* Main.storyboard in Resources */,
+				BF9C86311D4A1B5100E230C9 /* galerija3.png in Resources */,
+				BF8EE3011D451FA300CA0C64 /* LaunchScreen.storyboard in Resources */,
+				BF8EE3111D452CAC00CA0C64 /* moj-instagram.png in Resources */,
+				BF28D61A1D4CD0ED0076515D /* AppIcon.appiconset in Resources */,
+				BF8EE2FE1D451FA300CA0C64 /* Assets.xcassets in Resources */,
+				BF8EE30B1D4520D900CA0C64 /* GoogleService-Info.plist in Resources */,
+				BF8EE3091D451FDF00CA0C64 /* Podfile in Resources */,
+				BF9C86331D4A1BD700E230C9 /* kamera2.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		52A2A3852B969CCF885B9802 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-moj-instagram/Pods-moj-instagram-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6660106FBC13933BE9D8F559 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E754B04E1D192DD6E715F376 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-moj-instagram/Pods-moj-instagram-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BF8EE2EF1D451FA300CA0C64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF8EE2F71D451FA300CA0C64 /* AppDelegate.swift in Sources */,
+				BFD6A5021D4666900034E59C /* Registrovanje.swift in Sources */,
+				BFD6A5041D4686330034E59C /* UlogovanKorisnik.swift in Sources */,
+				BF86CD071D50C37200673EB3 /* Ćelijana.swift in Sources */,
+				BFD6A5001D46666F0034E59C /* Logovanje.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BF8EE2FF1D451FA300CA0C64 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF8EE3001D451FA300CA0C64 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BF8EE3031D451FA300CA0C64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BF8EE3041D451FA300CA0C64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BF8EE3061D451FA300CA0C64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EBEAFAD6B14B5DB2D2B6F8C2 /* Pods-moj-instagram.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "moj-instagram/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "vuk.com.moj-instagram";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		BF8EE3071D451FA300CA0C64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE9A1EA27E31EBC67822F057 /* Pods-moj-instagram.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "moj-instagram/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "vuk.com.moj-instagram";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BF8EE2EE1D451FA300CA0C64 /* Build configuration list for PBXProject "moj-instagram" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF8EE3031D451FA300CA0C64 /* Debug */,
+				BF8EE3041D451FA300CA0C64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF8EE3051D451FA300CA0C64 /* Build configuration list for PBXNativeTarget "moj-instagram" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF8EE3061D451FA300CA0C64 /* Debug */,
+				BF8EE3071D451FA300CA0C64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BF8EE2EB1D451FA300CA0C64 /* Project object */;
+}

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>821847540838-lvqlhjd6ctep9imsd1ucsv2leivfla2e.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.821847540838-lvqlhjd6ctep9imsd1ucsv2leivfla2e</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCLCLEHMgOM190d_OGb99tWAu4Pkgyy7u4</string>
+	<key>GCM_SENDER_ID</key>
+	<string>821847540838</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>vuk.com.moj-instagram</string>
+	<key>PROJECT_ID</key>
+	<string>moj-instagram</string>
+	<key>STORAGE_BUCKET</key>
+	<string>moj-instagram.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true/>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false/>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false/>
+	<key>IS_GCM_ENABLED</key>
+	<true/>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true/>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:821847540838:ios:7b040bc00d131c18</string>
+	<key>DATABASE_URL</key>
+	<string>https://moj-instagram.firebaseio.com</string>
+</dict>
+</plist>
